@@ -1,45 +1,87 @@
 import asciiPrint as ascii
-import dialogPrint as dlg
 import interface as itf
 
-"""
-TODO: create and check ascii prints.
-TODO: CnT interface with asciis
-TODO: Restructure dialogs into a txt file.
-TODO: Create a method for calling dialogs with  f.readline(), get the size and print each char one by one.
-#and use f.read(n) so n+1 and cls while n<readline().size this is for a typewritter style of chars.
-TODO: 
+import time
+import sys
+import os
+def print_lines( start_line, end_line, delay, ascii_path):
+  ascii.Printer(ascii_path[0], ascii_path[1], False)
+  with open('dialogs.txt', 'r',) as file:
+    lines = file.readlines()
+    for i in range(start_line - 1, end_line):
+      time.sleep(0.2)
+      for c in lines[i]:
+        lines[i].strip()
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(0.03)
+  time.sleep(delay)
+  os.system('cls')
 
-  narrativa parte 1 y peppa dino
-  narrativa p2
-  if narrativa 1  - encunetro 2
-  
-  narrativa p3
-  narrativa p4
+#Historia
 
-  if narrativa 2  -encuentro 3
-  narrativa p5
-  if narrativa 3 -encuetntro 4
-  narrativa p6
-  if narrativa 4 -encuetntro 5
-  narrativa p7
+#DIALOGS
+peppa_ascii=['enemigos', 'peppa_espada_1']
+oso_ascii=['enemigos','oso_espada_1']
+optionsInteraction=['Conversar', 'Atacar']
+print_lines( 2,6,4,['objetos', 'dino'])
+#DIALOGS
+print_lines( 8,9,4,peppa_ascii)
+#DIALOGS
+print_lines( 11,17,4,peppa_ascii)
+#DIALOGS
+print_lines( 20,23,4,peppa_ascii)       
+#DIALOGS
 
-  ######### EXAMPLE OF A NESTED DICT.
+print_lines( 26,27,4,peppa_ascii)
+ascii.printPasillo()
 
-"""
-#ascii art
-#options: alertas, armas, enemigos, objetos, pasillos
-# personalPy\dinosYCalabozosEnPython\ascii\alertas\alerta_menu_juego_1.txt
+selected_menu=itf.interface(optionsInteraction,oso_ascii, 'Elige una de las dos opciones, usa las flechas arriba y abajo, selecciona con Enter.', False)
+print_lines( 30,48,4,oso_ascii) #si conversar con oso
+#DIALOGS
+print_lines( 51,55,4,oso_ascii)       
+print_lines( 57,69,4,oso_ascii) #si conversar con Lorenzo
+#DIALOGS
+print_lines( 72,74,4,oso_ascii)       
+print_lines( 77,98,4,oso_ascii) #si conversar con Dani el dinosaurio
+#DIALOGS
+print_lines( 101,102,4)         
+print_lines( 103,116,4) #si conversar con Lucero el Hada
+#DIALOGS
+print_lines( 120,124,4)         
+print_lines( 126,138,4) #si conversar con Lucero el Hada
+#DIALOGS
+print_lines( 141,144,4)         
+print_lines( 146,152,4) #si conversar con Pedro el Lobo
+#DIALOGS
+print_lines( 155,159,4)         
+print_lines( 161,171,4) #si conversar con Huesos
+#DIALOGS
+print_lines( 173,175,4)         
+print_lines( 176,188,4) #si conversar con Vincent el fantasma
+#DIALOGS
+print_lines( 191,196,4)         
+print_lines( 197,203,4) #Conversacion con peppa
+#se pelea con peppa
+print_lines( 205,215,4) 
 
-# menu1=ascii.Printer('alertas', 'alerta_menu_juego_1', True)
-# menu2=ascii.Printer('alertas', 'alerta_menu_juego_2', True)
-# menu3=ascii.Printer('alertas', 'alerta_menu_juego_3', True)
 
-# filename = 'personalPy/dinosYCalabozosEnPython/dialogs.txt'
-# dlg.print_lines(filename, 10, 14)
 
-#interface
-options = ['ascii/alertas/alerta_menu_juego_1.txt','ascii/alertas/alerta_menu_juego_1.txt','ascii/alertas/alerta_menu_juego_1.txt']
-""""""
-selected_option = itf.navigate_menu(options)
-print(f'Selected option: {selected_option}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
