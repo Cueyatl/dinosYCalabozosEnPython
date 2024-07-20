@@ -40,4 +40,13 @@ def printPasillo():
     Printer('pasillo', ('escena_'+str(i)), False)
     time.sleep(0.45)
 
+def combatIntro(wait_Time):
+  os.system('cls')
+  for i in range(4):
+    time.sleep(wait_Time)
+    Printer('alertas', 'combate',False)
+    time.sleep(wait_Time)
+    os.system('cls')
+    print(" ")
+    
 

@@ -2,8 +2,9 @@
 import interface as itf
 import time
 import os
+import main as mn
 """
-  
+  TODO: Create animation of entering combat.
   TODO: create a method for a for i in range(n of events.): if else interact/attack at the end drop item.
   TODO: Create two classes of heroes, with four attacks and two classes of evil-doers with four attacks, 
   
@@ -12,7 +13,7 @@ import os
   dialogs
   
 --STRUCTURE:
-main menu
+main me
   main():
   list: start, credits, exit
   if credits show ascii two, option: return
@@ -54,23 +55,22 @@ options=['a','b','c','d'] #0, 1,2
 aditional_info="lorem  ipsum"
 
 """
-
-ascci_route=['', '']
-optionsMenu=['menu1','menu2','menu3']
-additional_info="no info"
-selected_menu=0
-while selected_menu != 2:
-  selected_menu=itf.interface(optionsMenu,ascci_route, additional_info, True)
-  print(selected_menu)
-  
-  if selected_menu==0:
-    os.system('cls')
-    print("TEST:play game")
-    time.sleep(3)
-  if selected_menu==1:
-    os.system('cls')
-    out_bounds=itf.interface(["creditos"], ['alertas', 'creditos'], "Hecho",True)
+def execute():
+  ascci_route=['', '']
+  optionsMenu=['menu1','menu2','menu3']
+  additional_info="no info"
+  selected_menu=0
+  while selected_menu != 2:
+    selected_menu=itf.interface(optionsMenu,ascci_route, additional_info, True)
+    print(selected_menu)
     
-    
-print("TEST:exited game")
+    if selected_menu==0:
+      os.system('cls')
+      mn.gameOn()
+      time.sleep(3)
+    if selected_menu==1:
+      os.system('cls')
+      out_bounds=itf.interface(["creditos"], ['alertas', 'creditos'], "Hecho",True)
+      
 
+execute()

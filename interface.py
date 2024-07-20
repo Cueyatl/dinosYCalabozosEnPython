@@ -11,22 +11,19 @@ Args:
     """
 def interface(options, ascii_route,aditional_info,is_ascii):
   c_value=0
+  
+  
   #ads a double space so its centered when the the actual value has a "->" signaling it is the current selected option.
-  if is_ascii==False:
-    for i in range (len(options)):
-      options[i]='  '+options[i]
+  if not is_ascii:
+    options=restoreOptions(options, c_value)
 
   while True:
     os.system('cls') #Clear screen
     if not is_ascii: #Meaning it shows text options instead of ascci art as options.
       asc.Printer(ascii_route[0], ascii_route[1], False) #Method for printing the required ascii art that goes above the text options.
       """This code restores the selected option from "->option" to "  "option """
-      for i in range (len(options)):  
-        if options[i][0]=='-':
-          options[i]=options[i].replace('->','  ')    
-      options[c_value]=options[c_value].replace('  ','->')
-      for value in options: #Prints the list in the terminal
-        print(value)    
+      options=restoreOptions(options, c_value)
+    
       print(aditional_info)
     else:
       asc.Printer('alertas', options[c_value], False) #Prints the ascii as an option.
@@ -34,6 +31,7 @@ def interface(options, ascii_route,aditional_info,is_ascii):
     if key == 27: #ESC
       break
     elif key == 13: #Enter
+      options=restoreOptions(options, c_value)
       return c_value
       
     elif key == 224: #Special keys (arrows, f keys, ins, del, etc.)
@@ -45,3 +43,25 @@ def interface(options, ascii_route,aditional_info,is_ascii):
       elif key == 72: #Up arrow
         c_value=len(options)-1 if c_value<=0  else c_value-1
 
+"Private method"
+def restoreOptions(options, c_value):
+
+
+  for i in range (len(options)):
+    options[i]=options[i].strip()
+    
+    if options[i][0]!='-':
+      options[i]='  '+options[i]
+    if options[i][0]=='-':
+      options[i]=options[i].replace('->','  ')
+      options[i]=options[i].strip()
+      options[i]='  '+options[i]
+    
+      
+        
+  options[c_value]=options[c_value].replace('->','')
+  options[c_value]=options[c_value].strip()
+  options[c_value]='->'+options[c_value]
+  for i in range (len(options)):
+    print(options[i])
+  return options

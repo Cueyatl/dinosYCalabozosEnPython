@@ -16,13 +16,13 @@ Peppa: Claro confia en mi, he estado aqui por mucho tiempo y conozco el calabozo
 
 Dino: Que alegria!!!.... por supuesto confio en ti.
 
--- NARRATIVA
+
 Le dijo a Dino que habia una criatura escondida en lo mas profundo del calabozo a la cual
 debes derrotar para poder salir de aqui y regresar a tu mundo.
 
 Dino: Acepto el desafio 
+  
 
--- NARRATIVA
 Las antorchas del calabozo parpadeaban, arrojando sombras danzantes en las paredes de piedra.
 
 #Dialogos si conversar
@@ -47,7 +47,7 @@ Oso: (pensativo) Tal vez pueda ayudarte a salir de esta parte del calabozo. Vera
 magica que abre todas las puertas del castillo. Pero hay un precio: necesito que me ayudes a encontrar
 algo muy valioso en lo mas profundo de este lugar.
 
--- NARRATIVA
+
 Y asi, Dino y el Oso Maloso formaron una extrana alianza. Juntos, se adentraron en los 
 oscuros pasadizos del calabozo, enfrentando peligros y resolviendo enigmas.
 Varios pasadizos despues, en las profundidades del calabozo, Dino se encontro con una 
@@ -68,8 +68,8 @@ que enfrentaras son mas antiguos que el tiempo mismo.
 
 Dino: (respirando hondo) Joder, es la unica salida que tengo. Estoy dispuesto a intentarlo.
 
--- 4TA NARRATIVA
-Y asi, Lorenzo adentro a Dino en las profundidades del calabozo. Cada paso los llevaba mas 
+
+Y asi, Dino se adentro en las profundidades del calabozo. Cada paso los llevaba mas 
 cerca de la libertad, pero tambien mas cerca de los secretos oscuros que yacian ocultos en
 las sombras. Al llegar a la siguiente habitacion.
 -- 
@@ -96,7 +96,7 @@ Dino:	(decidido) Acepto. Pero, como sabre que no me enganas?
 
 Dani el Dinosaurio:	(guiñando un ojo) Porque soy un bromista, no un tramposo. Ademas, quien 
 podria resistirse a una aventura con un dinosaurio como yo? Ja! Ja! Ja!
--- 5TA NARRATIVA
+
 
 Tras su camino al recorrer el calabozo Dino coincidio con lucero.
 
@@ -116,7 +116,7 @@ antiguas. Sigue el resplandor de las luciernagas y confia en tu instinto. El cam
 obvio, pero con valentia, encontraras tu camino de regreso a casa.
 
 
--- 6TA NARRATIVA	
+
 Dino avanzo por el calabozo, sus patas temblando en la penumbra. Las paredes estaban
 cubiertas de musgo y las raices se retorcian como dedos huesudos. Dino continuo su camino.	Las sombras 
 se cerraban a su alrededor, pero algo en su corazon le decia que la respuesta	estaba cerca. Solo tenia que 
@@ -137,10 +137,11 @@ Roberto el Zombie: Abres la puerta y lo metes. Ja, ja, ja! Lo pillas? Porque los
 
 Dino: (frunciendo el ceno) Estas chiflado, Roberto.
 
-//Septima Narrativa
+
 Dino un poco triste y desanimado despues de todo lo que habia recorrido continuo
 su busqueda en el calabozo, con la oscuridad envolviendolo como un abrazo frio. Las paredes	parecian
 cerrarse a su alrededor, y el eco de sus pasos resonaba en el silencio.
+
 Pedro el lobo asintio con seriedad. Sus ojos amarillos brillaban en la penumbra del calabozo
 
 Pedro el Lobo: Vale la pena,(gruno). No olvides por que luchamos por encontrar la salida de aqui.
@@ -151,7 +152,7 @@ Pedro el Lobo: Recuerda, las pociones regeneran tu vida y te dan poderes. No sub
 
 Dino: Buena tactica, venid, sigamos. La salida esta cerca, lo se.
 
-//Octava Narrativa	
+
 Pedro guio a Dino a la salida de esta habitacion del calabozo recordandole que estaba mas	cerca
 de lo que el creia. Dino continuo su camino por el calabozo, dejando atras a Pedro el lobo. La oscuridad parecia 
 mas densa ahora, como si las sombras conspiraran en su contra. Pero Dino no se detuvo.
@@ -159,7 +160,7 @@ A medida que avanzaba, una voz huesuda resono en el aire. Huesos, el esqueleto, 
 con una extrana chispa de inteligencia.
 //Huesos	
 Huesos: Sabes que los unicornios son simplemente caballos que se cansaron de la monotonia y decidieron	
-anadir un cuerno magico. Es una mejora de diseno!
+        anadir un cuerno magico. Es una mejora de diseno!
 
 Dino: Eso es… inesperado. Como puedo liberar a los cautivos atrapados aqui? ¿Y como salgo de este lugar oscuro?
 
@@ -169,10 +170,11 @@ con las estrellas. Deberiamos hacerles compania.
 Dino: Luciernagas? En serio?
 
 Huesos: Ven, quizas encuentres algo mas que respuestas en su luz.
-//Novena Narrativa	
-Dino agradecio y decidio proseguir su busqueda, aunque no tenia idea de a donde se 
-dirigia ni a quien se encontraria. Esta vez recorrio distintos pasadizos del calabozo que no tenia idea	
-de donde estaban ni si estaba mas cerca o no de la salida. Hasta que, finalmente, se encontro con Vincent, el fantasma.
+
+
+Dino agradecio y decidio proseguir su busqueda, aunque no tenia idea de a donde se dirigia ni a quien se encontraria.
+Esta vez recorrio distintos pasadizos del calabozo que no tenia idea	de donde estaban ni si estaba mas cerca o no de la salida.
+Hasta que, finalmente, se encontro con Vincent, el fantasma.
 Vincent: (con una voz eterea) Soy como un GPS para los errores. Solo dime donde te perdiste, y te guiare hacia la solucion.
 
 Dino: (asombrado) Como sabes que estoy perdido? 
@@ -187,14 +189,14 @@ Explora, ajusta y sigue adelante! No temas a los callejones sin salida ni a las 
 A veces, la solucion esta justo detras de la siguiente esquina. Y recuerda, Dino, la verdadera 
 magia esta en la perseverancia y la curiosidad. 
 
-//Decima Narrativa	
+
 Y asi, con las palabras de Vincent resonando en su mente, Dino continuo su busqueda. Dino avanzo 
 con determinacion por los pasadizos oscuros del calabozo, sorteando trampas y enfrentando	criaturas misteriosas. 
 Cada paso lo acercaba al corazon de la fortaleza subterranea, donde	aguardaba el enemigo final. 
 Dino se encontro con peppa quien fue la primera creatura que se acerco a el al llegar al calabozo, Dino sorprendido de 
 volver a verla apreto el puno un poco molsto por todo lo que habia rrecorrido	sabiendo que ella le pudo evitar tanto recorrido
 
-Dino: (Sorprendido y molesto)	Tu… fuiste el primero con el que interactue al llegar aqui. Por que?
+Dino: (Sorprendido y molesto)	Tu fuiste el primero con el que interactue al llegar aqui. Por que?
 
 Peppa:  Soy la guardiana de este calabozo, y tu eres el ultimo eslabon en mi cadena de prisioneros.
 
